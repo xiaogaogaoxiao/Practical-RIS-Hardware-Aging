@@ -20,7 +20,7 @@ This is a code package is related to the follow scientific article:
 
 ### Abstract
 
-In this Letter, reconfigurable intelligent surface (RIS) is studied from {an electronic device} reliability perspective. Runtimes and lifetimes of the RIS are introduced for the first time as impairment factors that degrade the system performance. In particular, Weibull distributions are used to model the runtime-related hardware aging (HA) {effect} on the RIS at first. Then, we obtain a practical RIS-assisted system model with phase-dependent amplitude variations, residual hardware impairments, and HA effects. Besides, we derive {closed-form} expressions of the received signal power and spectral efficiency for the proposed system. Analytical and numerical evaluations reveal that the HA effect on the RIS is the major impairment factor when the runtime is beyond the lifetime of the RIS.
+In this Letter, reconfigurable intelligent surface (RIS) is studied from an electronic device reliability perspective. Runtimes and lifetimes of the RIS are introduced for the first time as impairment factors that degrade the system performance. In particular, Weibull distributions are used to model the runtime-related hardware aging (HA) effect on the RIS at first. Then, we obtain a practical RIS-assisted system model with phase-dependent amplitude variations, residual hardware impairments, and HA effects. Besides, we derive closed-form expressions of the received signal power and spectral efficiency for the proposed system. Analytical and numerical evaluations reveal that the HA effect on the RIS is the major impairment factor when the runtime is beyond the lifetime of the RIS.
 
 ### Result 
 
