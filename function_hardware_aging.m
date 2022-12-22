@@ -11,7 +11,6 @@ function  [exp_phi_out] = function_hardware_aging(beta_exp_phi_wo_HA, total_move
 HA_vector_1_each_time = randsrc(N, 1, [0, 1; failure_rate_each_time, 1-failure_rate_each_time]);
 
 % size(HA_vector_1) = N x total_move_time 
-% HA_vector_1 = repmat(HA_vector_1_each_time, 1, total_move_time);
 
 HA_0_position_each_time = find(HA_vector_1_each_time==0); 
 
@@ -20,7 +19,7 @@ HA_vector_only_01 = repmat(HA_vector_1_each_time, 1, total_move_time);
 for ii = 1 : length(HA_0_position_each_time)
     temp_0 = random('Uniform',0,2*pi);
     temp_1 = random('Uniform',b,1);
-    HA_vector_1_each_time(HA_0_position_each_time(ii)) = temp_1.*exp(-1i*temp_0); % 幅度范围现在为从b到1
+    HA_vector_1_each_time(HA_0_position_each_time(ii)) = temp_1.*exp(-1i*temp_0);
     clear temp_0 temp_1
 end
 
