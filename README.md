@@ -24,8 +24,8 @@ In this Letter, reconfigurable intelligent surface (RIS) is studied from {an ele
 
 ### Result 
 
-![image](https://github.com/ken0225/RIS-Distance-Dependent-Rician-Channels/blob/main/Figure_3.png)
+![image](https://github.com/ken0225/Practical-RIS-Hardware-Aging/blob/main/Figure_2.png)
 
 ### How to use this code?
 
-Please run "Figure_2.m" to obtain the Figure 2 of the paper. By modifying the parameters, other figures can be obtained easily.
+Please run "Figure_2.m" to obtain the Figure 2 of the paper. Note that this is a simulated result. By modifying the parameters, other figures can be obtained easily.
