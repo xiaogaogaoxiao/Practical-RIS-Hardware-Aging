@@ -16,7 +16,7 @@ The simulation code is licensed under the GPLv2 license and is delivered as it i
 
 This is a code package is related to the follow scientific article:
 
-## K. Wang, C. -T. Lam and B. K. Ng, "[On Hardware Aging for Practical RIS-Assisted Communication Systems]," in _Electronics Letters_, to appear.
+## K. Wang, C. -T. Lam and B. K. Ng, "On Hardware Aging for Practical RIS-Assisted Communication Systems," in _Electronics Letters_, to appear.
 
 ### Abstract
 
