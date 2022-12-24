@@ -1,6 +1,6 @@
 % Author: Ke(Ken)WANG from Macao Polytechnic University
-% Email: ke.wang@ipm.edu.mo, kewang0225@gmail.com
-% Update infomation: v1.0(Apr/22/2022)
+% Email: ke.wang@mpu.edu.mo, kewang0225@gmail.com
+% Update infomation: v1.0(Dec/2022)
 
 
 %% Clean All & Timer Begins
