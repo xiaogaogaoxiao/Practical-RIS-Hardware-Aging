@@ -107,6 +107,7 @@ end
 [A_0] = function_A0(p_BS, p_User_trajectory);
 
 %% Compute some basic results
+
 disp('Step 3: Compute some basic results.');
 
 % 1/0 stands for isotropic IRS/practical IRS. In this paper, we only
@@ -135,6 +136,7 @@ phi_optimal = 2*pi*(fc*(tau_0-tau_n)+ceil(-(fc*(tau_0-tau_n))));
 [signal_direct_HWI]=function_S0(A_0, tau_0);
 
 %% Compute the gain when the IRS is non-isotropic, after phase optimization, w/ HWI and w/ HA
+
 disp('Step 4: Compute the gain when the IRS is non-isotropic, after phase optimization, w/ HWI and w/ HA.');
 
 % size(failure_rate) = 1 x total_running_time_t
@@ -202,6 +204,7 @@ end
 SE_direct = ones(1,size(index_failure_rate_vector,2)) * SE_DIRECT;
 
 %% Plot the simulation results
+
 close all;
 
 disp('Step 8: Plot the simulation results.');
